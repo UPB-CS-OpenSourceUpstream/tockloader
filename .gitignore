@@ -4,3 +4,8 @@ dist
 *.pyc
 __pycache__
 site
+
+
+# Added by cargo
+
+/target
