@@ -2,7 +2,7 @@
 
 This is a work-in-progress port to Rust for Tock Loader.
 
-Please use the Python version of [TockLoader](www.github.com/tock/tockloader).
+Please use the Python version of [TockLoader](https://www.github.com/tock/tockloader).
 
 ## Roadmap
 
