@@ -15,7 +15,7 @@ fn main() {
             let adr = sub_matches
                 .get_one::<String>("app-address")
                 .unwrap_or(&default_adr);
-            println!("{}", format!("With App Address {adr}"));
+            println!("With App Address {adr}");
         }
         // If only the "--debug" flag is set, then this branch is executed
         // Or, more likely at this stage, a subcommand hasn't been implemented yet.

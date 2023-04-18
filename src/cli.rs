@@ -1,6 +1,6 @@
 use clap::{arg, crate_version, Command};
 
-/// Create the [command](clap::Command) object which will handle all of the command line arguments. 
+/// Create the [command](clap::Command) object which will handle all of the command line arguments.
 pub fn make_cli() -> Command {
     Command::new("tockloader")
         .about("This is a sample description.")
